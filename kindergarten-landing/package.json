@@ -2,6 +2,7 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy-pro": "cd ./../kindergarten-landing && npm install --force && npm run build && npm start",
     "dev": "next dev",
