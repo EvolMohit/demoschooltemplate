@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy-pro": "cd ./../kindergarten-landing/dist && npm install --force && npm run build && npm start",
+    "deploy-pro": "cd ./../kindergarten-landing && npm install --force && npm run build && npm start",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
